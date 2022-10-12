@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.muhmmad.shoppingapp">
+    package="com.BankMisr.shoppingapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -16,13 +16,13 @@
         android:theme="@style/Theme.Shoppingapp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.activity.register.RegisterActivity"
+            android:name="com.BankMisr.shoppingapp.ui.activity.register.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.login.LoginActivity"
+            android:name="com.BankMisr.shoppingapp.ui.activity.login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activity.splash.SplashActivity"
+            android:name="com.BankMisr.shoppingapp.ui.activity.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activity.home.HomeActivity"
+            android:name="com.BankMisr.shoppingapp.ui.activity.home.HomeActivity"
             android:exported="false" />
     </application>
 
